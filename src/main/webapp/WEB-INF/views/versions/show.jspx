@@ -4,5 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_org_defascat_roo_realworld_domain_Version" object="${version}" path="/versions" z="fxyPjLDukcDVng9lAaQ/jWHY88Y=">
         <field:display field="name" id="s_org_defascat_roo_realworld_domain_Version_name" object="${version}" z="esfl6jNk3rpC6IvkWQvWmessisE="/>
+        <field:display field="description" id="s_org_defascat_roo_realworld_domain_Version_description" object="${version}" z="t0iuRxTMIuK69IVJIAKVkVWCNo0="/>
     </page:show>
 </div>

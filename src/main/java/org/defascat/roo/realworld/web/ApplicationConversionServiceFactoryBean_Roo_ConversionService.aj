@@ -41,7 +41,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<Version, String> ApplicationConversionServiceFactoryBean.getVersionToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<org.defascat.roo.realworld.domain.Version, java.lang.String>() {
             public String convert(Version version) {
-                return new StringBuilder().append(version.getName()).toString();
+                return "(no displayable fields)";
             }
         };
     }

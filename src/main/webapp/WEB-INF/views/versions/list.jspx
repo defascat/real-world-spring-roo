@@ -5,6 +5,7 @@
     <page:list id="pl_org_defascat_roo_realworld_domain_Version" items="${versions}" z="Mm14NRGtmpCUnZ1b0q3hR7Kzszs=">
         <table:table data="${versions}" id="l_org_defascat_roo_realworld_domain_Version" path="/versions" z="6fJ/q21o+ixZTbHjmkclCpipF5Q=">
             <table:column id="c_org_defascat_roo_realworld_domain_Version_name" property="name" z="QZFth52pxeU17jgXCtcnurFqJcw="/>
+            <table:column id="c_org_defascat_roo_realworld_domain_Version_description" property="description" z="kEQnBpo8r3Al3xi9aGfn1ukFX9s="/>
         </table:table>
     </page:list>
 </div>

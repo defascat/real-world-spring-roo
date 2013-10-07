@@ -24,8 +24,14 @@ privileged aspect VersionDataOnDemand_Roo_DataOnDemand {
     
     public Version VersionDataOnDemand.getNewTransientVersion(int index) {
         Version obj = new Version();
+        setDescription(obj, index);
         setName(obj, index);
         return obj;
+    }
+    
+    public void VersionDataOnDemand.setDescription(Version obj, int index) {
+        String description = "description_" + index;
+        obj.setDescription(description);
     }
     
     public void VersionDataOnDemand.setName(Version obj, int index) {

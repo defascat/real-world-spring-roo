@@ -15,4 +15,12 @@ privileged aspect Version_Roo_JavaBean {
         this.name = name;
     }
     
+    public String Version.getDescription() {
+        return this.description;
+    }
+    
+    public void Version.setDescription(String description) {
+        this.description = description;
+    }
+    
 }

@@ -9,7 +9,7 @@ import javax.validation.constraints.NotNull;
 
 @RooJavaBean
 @RooToString
-@RooJpaActiveRecord
+@RooJpaActiveRecord(finders = { "findVersionsByNameLikeOrDescriptionLike" })
 @RooJson
 public class Version {
 
@@ -18,4 +18,8 @@ public class Version {
     @NotNull
     @Column(unique = true)
     private String name;
+
+    /**
+     */
+    private String description;
 }

@@ -4,6 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_org_defascat_roo_realworld_domain_Version" modelAttribute="version" path="/versions" render="${empty dependencies}" z="Pg30n9e4QgeV+CEU0DCIYjRKciE=">
         <field:input field="name" id="c_org_defascat_roo_realworld_domain_Version_name" required="true" z="CCGjFaWjt4iwoZB4/xaY+D+EmKw="/>
+        <field:input field="description" id="c_org_defascat_roo_realworld_domain_Version_description" z="bmAFb1eAKX1dGKQua1FXbYO9LHg="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_org_defascat_roo_realworld_domain_Version" render="${not empty dependencies}" z="20bo25xm8FwWIw9/innV/ATkKLg="/>
 </div>

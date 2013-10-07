@@ -4,5 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_org_defascat_roo_realworld_domain_Version" modelAttribute="version" path="/versions" versionField="Version" z="Co7of/UIAdBcfmUIoePpyF8HIAA=">
         <field:input field="name" id="c_org_defascat_roo_realworld_domain_Version_name" required="true" z="CCGjFaWjt4iwoZB4/xaY+D+EmKw="/>
+        <field:input field="description" id="c_org_defascat_roo_realworld_domain_Version_description" z="bmAFb1eAKX1dGKQua1FXbYO9LHg="/>
     </form:update>
 </div>
