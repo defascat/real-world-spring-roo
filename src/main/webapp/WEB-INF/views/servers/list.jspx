@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_defascat_roo_realworld_domain_Server" items="${servers}" z="HBlFMIBLr0nOqo7xx+BcwihZQ+Y=">
+        <table:table data="${servers}" id="l_org_defascat_roo_realworld_domain_Server" path="/servers" z="dxdwGioLdzbTCYDX4gRKHV/0Pbc=">
+            <table:column id="c_org_defascat_roo_realworld_domain_Server_name" property="name" z="AhldBvYy2R3tQ4rchnADK0HpthE="/>
+            <table:column id="c_org_defascat_roo_realworld_domain_Server_version" property="version" z="ORQXJYddHNyar1GEGHUARPd81+g="/>
+        </table:table>
+    </page:list>
+</div>
